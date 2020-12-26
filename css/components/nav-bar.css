@@ -12,5 +12,28 @@
   justify-content: space-between;
 }
 .nav__link {
+  position: relative;
   color: #2e363e;
+}
+
+.nav__notification {
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 0.9em;
+  font-weight: 600;
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+}
+.badge {
+  width: 5px;
+  height: 5px;
+  left: 23px;
+  bottom: 20px;
 }
